@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afiliación al Gym</title>
     <!-- <link rel="stylesheet" href="./CSS/estilos-retro.css"> -->
-    <link rel="stylesheet" href="./CSS/estilos-urbano.css">
-    <!-- <link rel="stylesheet" href="./CSS/estilo3.css"> -->
+    <!-- <link rel="stylesheet" href="./CSS/estilos-urbano.css"> -->
+    <link rel="stylesheet" href="./CSS/estilos.css">
 
 </head>
 
 <body>
     <header>
-        <h1>Vení al Gym! 💪🏼</h1>
+        <div class="header-line"></div> 
+    <h1>Vení al Gym! <span>💪</span></h1>
+    <div class="header-line bottom"></div> 
 
     </header>
     <main>
@@ -67,6 +69,7 @@
 
         <section>
 
+            
 
             <fieldset>
                 <legend>📱 Datos de Contacto ✉️</legend>
@@ -101,23 +104,25 @@
                 <input type="checkbox" id="rugby_rosario" name="actividades_rosario" value="Rugby"> Rugby
                 <input type="checkbox" id="voley_rosario" name="actividades_rosario" value="Voley"> Voley
             </fieldset>
-            </fieldset>
+            
 
         </section>
 
         <section>
 
 
-            <fieldset>
+            
                 <input type="checkbox" id="acepto" name="acepto" required> Acepto las condiciones<span
                     class="obligatorio">*</span>
                 <br>
                 <input type="checkbox" id="novedades" name="novedades"> Deseo recibir novedades
-            </fieldset>
+            
 
             <p>*: Campo obligatorio</p>
 
+        </section>
 
+        <section>
             <input type="submit" value="Iniciar afiliación">
             <input type="reset" value="Restablecer">
             </form>
