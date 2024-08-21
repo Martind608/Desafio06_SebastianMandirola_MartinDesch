@@ -25,8 +25,8 @@
             <form action="#" method="post">
 
                 <fieldset>
-                    <legend>🙋🏼‍♂️Datos Personales 👀</legend>
-
+                    <legend class="titulos">🙋🏼‍♂️Datos Personales 👀</legend>
+                    
                     <label for="nombre">Nombre:<span class="obligatorio">*</span></label>
                     <input type="text" id="nombre" name="nombre" required>
                     <br>
@@ -63,16 +63,18 @@
                     <input type="radio" id="femenino" name="sexo" value="Femenino" required> Femenino
                     <input type="radio" id="masculino" name="sexo" value="Masculino"> Masculino
                     <input type="radio" id="otro" name="sexo" value="Otro"> Otro
+
+                
                 </fieldset>
 
         </section>
-
+        <div class="separador"></div>
         <section>
 
             
 
             <fieldset>
-                <legend>📱 Datos de Contacto ✉️</legend>
+                <legend class="titulos">📱 Datos de Contacto ✉️</legend>
 
                 <label for="telefono">Teléfono:</label>
                 <input type="text" id="telefono" name="telefono" placeholder="Código de área y número">
@@ -82,23 +84,26 @@
             </fieldset>
 
         </section>
-
-        <section>
+        <div class="separador"></div>
+        <section class="actividades">
 
 
             <fieldset>
-                <legend>🚴🏼 Actividades 🤸🏼‍♂️</legend>
+                <legend class="titulos">🚴🏼 Actividades 🤸🏼‍♂️</legend>
 
                 <p>Por favor, indicá cuáles actividades te interesan.</p>
 
 
                 <legend>Sede Palermo:</legend>
+                <br>
                 <input type="checkbox" id="basquet_palermo" name="actividades_palermo" value="Basquet"> Básquet
                 <input type="checkbox" id="boxeo_palermo" name="actividades_palermo" value="Boxeo"> Boxeo
                 <input type="checkbox" id="futbol_palermo" name="actividades_palermo" value="Futbol"> Fútbol
                 <input type="checkbox" id="tenis_palermo" name="actividades_palermo" value="Tenis"> Tenis
-
+                <br>
+                <br>
                 <legend>Sede Rosario:</legend>
+                <br>
                 <input type="checkbox" id="basquet_rosario" name="actividades_rosario" value="Basquet"> Básquet
                 <input type="checkbox" id="futbol_rosario" name="actividades_rosario" value="Futbol"> Fútbol
                 <input type="checkbox" id="rugby_rosario" name="actividades_rosario" value="Rugby"> Rugby
@@ -108,7 +113,7 @@
 
         </section>
 
-        <section>
+        <section class="condiciones">
 
 
             
@@ -122,7 +127,7 @@
 
         </section>
 
-        <section>
+        <section class="botones">
             <input type="submit" value="Iniciar afiliación">
             <input type="reset" value="Restablecer">
             </form>
