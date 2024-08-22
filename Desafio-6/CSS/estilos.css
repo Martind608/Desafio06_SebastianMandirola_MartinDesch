@@ -15,7 +15,7 @@ body {
 /* Estilos para el header */
 header {
     background-color: #1F2023;
-     padding: 1rem 2rem; 
+    padding: 1rem 2rem; 
     text-align: center;
     color: white;
     position: relative;
@@ -29,7 +29,6 @@ header h1 {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 15px;
-    text-transform: uppercase;
     position: relative;
     z-index: 2;
 }
@@ -57,27 +56,27 @@ header h1 {
 /* seccion condiciones */
 
 .condiciones{
-    max-width: 600px;
+    max-width: 700px;
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 0rem 2rem; 
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     text-align: left;
-
+    padding: 1rem; 
+    margin-bottom: 0rem;
 }
 
 
 /* secciones del formulario */
 
 section {
-    max-width: 600px;
+    position: relative; /* contenedor relativo */
+    max-width: 700px;
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 0rem 2rem; 
     background-color: #D6E2DE;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    
-    
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 .actividades {
     text-align: left;
@@ -112,15 +111,15 @@ form h2 span {
 label {
     display: block;
     margin-top: 1rem;
-    font-weight: bold;
     font-size: 1.2rem;
 }
+
 
 input[type="text"],
 input[type="email"],
 textarea,
 select {
-    width: 100%;
+    width: 75%;
     padding: 0.75rem;
     margin-top: 0.5rem;
     border: 1px solid #2d4641;
@@ -160,26 +159,31 @@ fieldset{
 
 /* titulos de los formularios */
 
+/* Estilos para .titulos */
 .titulos {
-
+    position: absolute; 
+    top: -1.5rem; /* Para que quede más arriba del contenedor */
+    left: 1rem; 
+    margin: 0.5rem 0;
+    text-transform: uppercase;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 10px; 
     display: inline-block;
-    margin-bottom: 1rem;
     font-size: 1rem;
     background-color: #2d4641;
-    border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     text-align: left;
-
+    width: auto; 
+    max-width: calc(100% - 2rem); /* Asegura que el ancho no exceda el contenedor */
 }
-
 
 /* botones  */
 
 
 .botones{
+    margin-top: 1rem; 
+    padding: 0; 
     align-items: center;
     background-color: transparent;
     box-shadow: none;
@@ -194,7 +198,7 @@ input[type="reset"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-right:25px;
 }
 
