@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
           
         }
     });
+    
 
     function validarFormulario() {
         const nombre = document.getElementById("nombre").value.trim();
@@ -22,4 +23,5 @@ document.addEventListener("DOMContentLoaded", function() {
         return true;
     }
 });
+
 
